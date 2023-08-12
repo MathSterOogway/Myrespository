@@ -21,7 +21,11 @@ body {
     display: flex;
     height: fit-content;
     justify-content: flex-end;
-    gap: 100px;
+    gap: 50px;
+}
+.upper-container-contents {
+    object-fit: contain;
+    aspect-ratio: 3/2;
 }
 .lower-container{
     position: relative;
@@ -75,10 +79,12 @@ body {
     margin-right: 10px;
     position: absolute;
     right: 5%;
+    bottom: 37%;
+    border: none;
 
 }
 #Picture img {
-    width: 30px;
+    width: 20px;
     height: auto;
     position: relative;
 }
@@ -88,21 +94,24 @@ body {
     position: relative;
     border-radius: 20px;
 }
-#ADMU img {
-    width: 30px;
-    height: auto;
-    position: relative;
-    border-radius: 20px;
-}
-#UST img {
-    width: 30px;
-    height: auto;
-    position: relative;
-    border-radius: 20px;
-}
+
+
 #Google_Logo {
-    height: 150px;
-    width: 190px;
+    height: 170px;
+    width: 210px;
     position: absolute;
     margin-bottom: 250px;
+}
+#bottomLeft{
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 30px;
+    align-items: flex-end;
+}
+a {
+    text-decoration: none;
+    color: gray;
+    font-family: arial;
+    font-weight: 100;
+    font-size: 12px;
 }
