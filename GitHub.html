@@ -1,19 +1,55 @@
-<!DOCTYPE html> 
-<html lang ="en">
+<!DOCTYPE html>
+<html lang = "en">
     <head>
-        <link rel="stylesheet" href="superstyle.css">
-        <title>Project 0</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Google</title>
+        <link rel="stylesheet" href="Google_Design.css">
     </head>
     <body>
         <div class="main-container">
             <div class="upper-container"> <!-- This is in flexbox style-->
-                <div class="upper-container-contents"></div>
-                <div class="upper-container-contents"></div>
-                <div class="upper-container-contents"></div>
-                <div class="upper-container-contents"></div>
+                <div class="upper-container-contents" id="UST">
+                    <a href="https://www.ust.edu.ph/">
+                    <img src="Seal_of_the_University_of_Santo_Tomas.svg.png" alt="UST">
+                    </a>
+                </div>
+                <div class="upper-container-contents" id="ADMU">
+                    <a href="https://www.ateneo.edu/">
+                    <img src="Ateneo_de_Manila_University_seal.svg.png" alt="ADMU">
+                    </a>
+                </div>
+                <div class="upper-container-contents" id = "DLSU">
+                    <a href="https://www.dlsu.edu.ph/">
+                    <img src="logo-dlsu-id-manual-2019.jpg" alt="DLSU">
+                    </a>
+                </div>
+                <div class="upper-container-contents" id="Picture">
+                    <a href="https://up.edu.ph/">
+                    <img src="University_of_The_Philippines_seal.svg.png" alt="UP logo">
+                    </a>
+                </div>
             </div>
-            <div class="lower-container"></div> <!-- This is in grid style -->
+            <div class="lower-container">
+                <div class="lower-container-main">
+                <div class="container"></div>
+                <div class="container"></div>
+                <div class="container"></div>
+                <div class="container"></div>
+                <div class="container" id = "google-search">
+                    <img src="pngwing.com.png" alt="GOOGLE" id = "Google_Logo">
+                    <input type="text" class="search-bar" id = "searchInput" placeholder="Search Here">
+                    <img src="search-icon.png" alt="" class = "search-icon">
+                    
+                    
+                </div>
+                <div class="container"></div>
+                <div class="container"></div>
+                <div class="container"></div>
+                <div class="container"></div>
+                </div>
+            </div>
         </div>
-        <script src ="raining.js"></script>
+        <script src = "Google_Function.js"></script>
     </body>
 </html>

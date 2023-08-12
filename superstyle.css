@@ -1,5 +1,108 @@
+* {
+    background-color: whitesmoke;
+}
+body {
+    padding : 0;
+    margin: 0;
+}
 .main-container {
     display: grid;
-    grid-template-columns: 8px auto 8px;
-    grid-template-rows: 8px auto 8px;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr;
+    height: 100vh;
+    width: 100%;
+}
+.upper-container {
+    
+    color: white;
+    padding: 20px;
+    grid-row: 1;
+    grid-column: 1;
+    display: flex;
+    height: fit-content;
+    justify-content: flex-end;
+    gap: 100px;
+}
+.lower-container{
+    position: relative;
+    
+}
+
+.lower-container-main {
+    
+    position: absolute;
+    
+    grid-column: 1;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 0px;
+    margin: 0px auto;
+    padding: 0px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+#google-search {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border-radius: 20px;
+    padding: 10px;
+    grid-row: 2 / 3;
+    grid-column: 2 / 3;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+    align-self: center;
+    
+
+}
+.search-bar {
+    border: grey solid 1px;
+    outline: none;
+    padding: 8px;
+    font-size: 16px;
+    width: 100%;
+    border-radius: 20px;
+    background-color: transparent;
+    justify-content: center;
+    height: 30px;
+}
+.search-icon{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    position: absolute;
+    right: 5%;
+
+}
+#Picture img {
+    width: 30px;
+    height: auto;
+    position: relative;
+}
+#DLSU img {
+    width: 30px;
+    height: auto;
+    position: relative;
+    border-radius: 20px;
+}
+#ADMU img {
+    width: 30px;
+    height: auto;
+    position: relative;
+    border-radius: 20px;
+}
+#UST img {
+    width: 30px;
+    height: auto;
+    position: relative;
+    border-radius: 20px;
+}
+#Google_Logo {
+    height: 150px;
+    width: 190px;
+    position: absolute;
+    margin-bottom: 250px;
 }
