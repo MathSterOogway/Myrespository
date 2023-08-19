@@ -115,3 +115,15 @@ a {
     font-weight: 100;
     font-size: 12px;
 }
+#Shortcuts {
+    display: flex;
+    justify-content: space-around;
+    
+}
+.socmed {
+    width: 40px; 
+    height: 40px; 
+    object-fit: contain;
+    height: auto;
+}
+

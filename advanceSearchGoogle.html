@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <title>Google Advance Search</title>
+        <link rel="stylesheet" href="advanceSearchGoogle.css">
+    </head>
+    <body>
+        <div class="main-div">
+            <div class="header">
+                <div class="top-container">
+                    <a href="../Google_Structure.html"><img src="pngwing.com.png" alt="Google" class="google-logo"></a>
+                    <img src="University_of_The_Philippines_seal.svg.png" alt="gmail" class="Gmail">
+                </div>
+            </div>
+            <div class="advance-search">
+                <h3 style="font-family: sans-serif; color: rgb(203, 22, 22); font-weight: 100;">Advance Search</h3>
+            </div>
+            <div class="search-container">
+                <p style="font-family: sans-serif; font-weight: 100; color: gray;">Find pages with...</p>
+                <form id="google-search-form" action="https://www.google.com/search">
+                    <div class="first-search">
+                        <div class="first-text">
+                            <p>all these words:</p>
+                            <input type="text" id="first-input">
+                        </div>
+                    </div>
+                    <div class="first-search">
+                        <div class="first-text">
+                            <p>this exact word or phrase</p>
+                            <input type="text" id="second-input">
+                        </div>
+                    </div>
+                    <div class="first-search">
+                        <div class="first-text">
+                            <p>any of these words</p>
+                            <input type="text" id="third-input">
+                        </div>
+                    </div>
+                    <div class="first-search">
+                        <div class="first-text">
+                            <p>none of these words</p>
+                            <input type="text" id="fourth-input">
+                        </div>
+                    </div>
+                    <button type="button" class="search-button" id="myButton" onclick="performGoogleSearch()">Search</button>
+                </form>
+
+            </div>
+            <div class="search-container-2"></div>
+            <div class="credits"></div>
+        </div>
+        
+        <script src="Advance.js"></script>
+    </body>
+</html>

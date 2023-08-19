@@ -1,0 +1,82 @@
+body {
+    background-color: white;
+    padding: 10px;
+}
+.header {
+    background-color: transparent;
+}
+.google-logo {
+    height: 60px;
+    width: 80px;
+}
+.top-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Gmail {
+    height: 30px;
+    width: 30px;
+}
+.main-div {
+    display: flex;
+    flex-direction: column;
+}
+.advance-search {
+    padding: 40px;
+}
+.search-container{
+    padding: 30px;
+}
+#google-search-form {
+    padding: 20px 0px 0px 0px;
+    font-family: sans-serif;
+    color: gray;
+    font-size: 14px;
+}
+.first-text{
+    display: flex;
+    gap: 30px;
+}
+#first-input{
+    width: 50%;
+    margin: 10px 10px 10px 70px;
+}
+#first-input:hover {
+    border: 1px rgb(37, 145, 44) solid;
+}
+.search-container{
+    display: grid;
+}
+#second-input{
+    margin: 10px 10px 10px 10px;
+    width: 50%;
+}
+#third-input {
+    width: 50%;
+    margin: 10px 10px 10px 49px;
+}
+#fourth-input {
+    width: 50%;
+    margin: 10px 10px 10px 40px;
+}
+.RefGoogle {
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: 100;
+
+}
+.search-button {
+    padding: 10px 40px 10px 40px;
+    border: none;
+    color: white;
+    background-color: rgb(54, 187, 231);
+    border-radius: 10px;
+    position: absolute;
+    right: 36.7%;
+}
+.search-button:hover {
+    cursor: pointer;
+    background-color: white;
+    color: rgb(54, 187, 231);
+}
